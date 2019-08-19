@@ -70,7 +70,6 @@ export default {
 
 <style lang="scss">
 @import '@/assets/scss/app.scss';
-
 .box-entry {
   display: block;
   font-size: 0.75rem;
@@ -84,17 +83,14 @@ export default {
     border-color: #999;
     box-shadow: 1px 5px 7px 0 rgba(0, 0, 0, 0.2);
   }
-
   // desktop
   @include media-breakpoint-up(sm) {
     margin: 0 0 1.5rem 1.5rem;
   }
   margin-top: 1.5rem;
-
   a {
     font-weight: 400;
   }
-
   .logo {
     @include media-breakpoint-up(sm) {
       width: 13rem;
@@ -108,39 +104,32 @@ export default {
       object-fit: cover;
       object-position: center;
       // border-bottom: 1px solid #eee;
-
       &.no-logo {
         background: linear-gradient(15deg, #14af83, #15b89a);
       }
     }
   }
-
   .info-box {
     padding: 0.75rem 0.75rem;
-
     width: 22rem;
     @include media-breakpoint-up(sm) {
       width: 16rem;
       padding-top: 0.5rem;
     }
-
     .title {
       font-size: 1rem;
       margin-bottom: 0;
     }
-
     .location {
       padding-top: 0;
       margin-bottom: 0.5rem;
       font-size: 0.7rem;
       color: #444;
     }
-
     .description {
       margin-bottom: 0;
     }
   }
-
   .details-box {
     @include media-breakpoint-up(sm) {
       padding-left: 0;
@@ -149,13 +138,11 @@ export default {
     padding-top: 0.5rem;
     padding-right: 0.75rem;
     width: 6rem;
-
     ul {
       list-style: none;
       padding-left: 0;
     }
   }
-
   .label {
     display: block;
     font-weight: 700;
