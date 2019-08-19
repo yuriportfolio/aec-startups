@@ -22,7 +22,7 @@ exports.handler = function(event, context, callback) {
     apiKey: process.env.AIRTABLE_API_KEY
   })
 
-  const base = Airtable.base('appNtnZ99fkL1cByn')
+  const base = Airtable.base('app57ER1ewwOJxjMx')
   const allRecords = []
   base('entries')
     .select({
