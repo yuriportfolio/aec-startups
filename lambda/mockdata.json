@@ -6,7 +6,11 @@
                     "_airtable": {
                         "requestTimeout": 300000
                     },
+<<<<<<< HEAD
                     "_id": "appgJj41IS8RduW3N"
+=======
+                    "_id": "appNtnZ99fkL1cByn"
+>>>>>>> parent of 4ec962d... air table api config
                 },
                 "id": null,
                 "name": "entries"

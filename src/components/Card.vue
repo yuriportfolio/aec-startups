@@ -5,16 +5,16 @@
     @click="$emit('click')"
   >
     <div class="d-flex flex-wrap flex-row align-items-top">
-      <div class="Logo d-flex align-items-center justify-content-center">
-        <div v-show="!Logo" class="spinner-grow" role="status">
+      <div class="logo d-flex align-items-center justify-content-center">
+        <div v-show="!imageReady" class="spinner-grow" role="status">
           <span class="sr-only">Loading...</span>
         </div>
-        <img :id="cardId" v-show="Logo" />
+        <img :id="cardId" v-show="imageReady" />
       </div>
       <div class="info-box">
-        <p class="title">{{ name }}</p>
-        <p class="location">{{ bonus }}</p>
-        <p class="description">{{ Offer }}</p>
+        <p class="title">{{ title }}</p>
+        <p class="location">{{ location }}</p>
+        <p class="description">{{ description }}</p>
       </div>
       <div class="details-box">
         <p>
@@ -23,8 +23,18 @@
         </p>
         <ul>
           <li>
-            <a v-if="Link" :href="Link" target="blank" class="card-link"
-              >Website</a>
+            <a v-if="website" :href="website" target="blank" class="card-link"
+              >Website</a
+            >
+          </li>
+          <li>
+            <a
+              v-if="crunchbase"
+              :href="crunchbase"
+              target="blank"
+              class="card-link"
+              >Crunchbase</a
+            >
           </li>
         </ul>
       </div>
