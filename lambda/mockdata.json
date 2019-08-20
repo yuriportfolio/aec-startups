@@ -18,7 +18,7 @@
             "_rawJson": {
                 "id": "recW0FpRZMaQv5Ble",
                 "fields": {
-                    "title": "3D Repo",
+                    "title": "3Dss Repo",
                     "crunchbase": "https://www.crunchbase.com/organization/3d-repo",
                     "description": "Cloud-Based BIM",
                     "funding": "Seed",
@@ -3700,7 +3700,7 @@
                     "documentation",
                     "web app"
                 ],
-                "industries": [
+                "industies": [
                     "architecture"
                 ],
                 "location": "New York, NY, USA",

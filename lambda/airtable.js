@@ -27,7 +27,7 @@ exports.handler = function(event, context, callback) {
   const allRecords = []
   base('entries')
     .select({
-      maxRecords: 100,
+      maxRecords: 10,
       view: 'all'
     })
     .eachPage(
