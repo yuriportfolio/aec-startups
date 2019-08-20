@@ -4,4 +4,4 @@
   command = "yarn build"
 
 [build.environment]
-  AIRTABLE_API_URL = "https://d328z2udrxnsxn.cloudfront.net"
+  AIRTABLE_API_URL = "api.airtable.com"
