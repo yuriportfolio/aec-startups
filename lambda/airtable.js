@@ -22,15 +22,8 @@ exports.handler = function(event, context, callback) {
     apiKey: process.env.AIRTABLE_API_KEY
   })
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   const base = Airtable.base('appgJj41IS8RduW3N')
-=======
-  const base = Airtable.base('appNtnZ99fkL1cByn')
->>>>>>> parent of 4ec962d... air table api config
-=======
-  const base = Airtable.base('app57ER1ewwOJxjMx')
->>>>>>> parent of 4215d89... origin content
+
   const allRecords = []
   base('entries')
     .select({
