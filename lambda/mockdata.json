@@ -14,52 +14,6 @@
                 "id": null,
                 "name": "entries"
             },
-            "id": "recW0FpRZMaQv5Ble",
-            "_rawJson": {
-                "id": "recW0FpRZMaQv5Ble",
-                "fields": {
-                    "title": "3Dss Repo",
-                    "crunchbase": "https://www.crunchbase.com/organization/3d-repo",
-                    "description": "Cloud-Based BIM",
-                    "funding": "Seed",
-                    "image": "logos/3drepo.png",
-                    "website": "https://3drepo.com",
-                    "tags": [
-                        "web app",
-                        "issue tracking",
-                        "change management"
-                    ],
-                    "industries": [
-                        "architecture",
-                        "construction"
-                    ],
-                    "location": "London, UK",
-                    "review": "approved",
-                    "created_on": "2019-06-05T19:17:34.000Z"
-                },
-                "createdTime": "2019-06-05T19:17:34.000Z"
-            },
-            "fields": {
-                "title": "3D Repo",
-                "crunchbase": "https://www.crunchbase.com/organization/3d-repo",
-                "description": "Cloud-Based BIM",
-                "funding": "Seed",
-                "image": "logos/3drepo.png",
-                "website": "https://3drepo.com",
-                "tags": [
-                    "web app",
-                    "issue tracking",
-                    "change management"
-                ],
-                "industries": [
-                    "architecture",
-                    "construction"
-                ],
-                "location": "London, UK",
-                "review": "approved",
-                "created_on": "2019-06-05T19:17:34.000Z"
-            }
-        },
         {
             "_table": {
                 "_base": {
