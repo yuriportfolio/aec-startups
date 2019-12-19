@@ -79,7 +79,7 @@ export default {
       .then(response => {
         this.startups = response.records
           .map(r => r.fields)
-          .filter(o => o.review == 'approved')
+         
       })
       .catch(err => {
         this.error = err
