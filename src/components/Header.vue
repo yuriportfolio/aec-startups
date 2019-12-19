@@ -4,14 +4,14 @@
   >
     <div>
       <h2 class=" logo">
-        aec startups
+       First Person Design
       </h2>
       <p class=" logo-subtitle">
-        <em>shiny startups in the aec space</em>
+        <em>Games studio / Web agency/ Augmented reality magicians</em>
       </p>
     </div>
     <h1 class="mr-2">
-      <a href="https://airtable.com/shrLpxcEdauXQcecZ" target="blank">+</a>
+      <a href="https://airtable.com/shr44p8lkjSXI9D4W" target="blank">+</a>
     </h1>
   </div>
 </template>
