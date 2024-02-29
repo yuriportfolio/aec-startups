@@ -2,7 +2,7 @@ repo_name: yuriportfolio/aec-startups
 report_id: d4d30e948f1ee489ea288b9ecc3d41ca
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:07:24+00:00'
+timestamp: '2024-02-29T18:21:51+00:00'
 requested_by: yuriportfolio
 provider: github
 branch: master
@@ -84,7 +84,7 @@ tools:
   detection_source_url: https://github.com/yuriportfolio/aec-startups
   detection_source: Repo Metadata
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 1.16.3
   license: MIT
